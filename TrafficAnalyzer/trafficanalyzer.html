@@ -1,0 +1,376 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+       
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <title>GigaMall</title>
+    <style>
+    
+   .dev {
+  
+  border: 3px solid green;
+} 
+
+
+
+
+/* Style the buttons */
+.bt{
+	height:45px;
+	line-height:45px;
+	font-size:20px;
+	margin:0 auto;
+	text-align:center;
+	cursor:pointer;
+  border-radius:15px;
+	background-color: #003D99 !important;
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.2) 100%);
+  color: #FFFFFF!important;
+}
+
+.btn1 {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+  onclick
+}
+
+.btn1:hover {
+  background-color: #ddd;
+}
+
+.btn1.active {
+  background-color: #666;
+  color: white;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 1px;
+  
+  padding: 1px;
+}
+
+.grid-container > div {
+  
+  
+  text-align: center;
+  font-size: 20px;
+}
+
+    
+    <!MODEL!>
+    
+.modal-header{
+  background-color:#212529;
+  color:white;
+  text-transform:uppercase;
+}
+.modal-body{
+  
+  color:black;
+  text-align:justify;
+}
+.btn-color{
+  background-color:#D56B1F;
+  color:white;
+}
+.modal-footer{
+  
+  
+  height:60px;
+}
+#collapse in show{
+  height:450px;
+}
+.modal-body{
+  font-size:18px;
+  opacity:0.8;
+  
+}
+    
+    <!ANalysis!>
+#analysis {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#analysis td, #analysis th {
+  
+  padding: 8px;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+
+
+#analysis tr:hover {background-color: #ddd;}
+
+#analysis th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #FF6900;
+  color: white;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+#Daemon {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 70%;
+}
+
+#Daemon td, #Daemon th {
+  
+  padding: 8px;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+
+
+#Daemon tr:hover {background-color: #ddd;}
+
+#Daemon th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #FF6900;
+  color: white;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+    
+    </style>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="overview">System Overview</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            
+            <li class="nav-item">
+              <a class="nav-link" href="devicereservation">Device Reservation <span class="sr-only">(current)</span></a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="imageinstaller.html">Image Installator</a>
+            </li>
+            
+            <li class="nav-item active" id="LA">
+                <a class="nav-link" href="draft.html">Log Analyzer</a>
+            </li>
+            
+            <li class="nav-item">
+                <a class="nav-link" href="trafficanalyzer">Traffic Analyzer</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="trafficgenerator">Traffic Generator</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Debug
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Trouble Shoot</a>
+                <a class="dropdown-item" href="#">Diagnostics</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact"> Contact </a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+      
+      
+
+
+   
+    
+ 
+     
+    
+     
+     
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+    <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    -->
+  
+  
+
+<div class="alert alert-success alert-dismissible fade show" role="alert" id="alert_div" style="visibility:hidden">
+    <strong>Success: </strong> FP rule installation/Deletion  successfully
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+    </button>
+</div>
+
+
+<h2 class="text-center my-4">Enter the details to analyze packet</h2>
+
+<div class="container positive-relative">
+   
+        
+        <div class="form-row">
+            <div class="form-group col-md-2">
+                <label for="deviceIpAddress">SSH IP Address</label>
+                <input type="text" class="form-control" id="deviceIpAddress" name="deviceIpAddress"
+                    placeholder="10.120.6.160">
+            </div>
+            <div class="form-group col-md-2">
+                <label for="username">User Name</label>
+                <input type="text" class="form-control" id="username" name="username" placeholder="admin">
+            </div>
+            <div class="form-group col-md-2">
+                <label for="password">Password</label>
+                <input type="password" class="form-control" id="password" name="password" placeholder="Enter Password">
+            </div>
+
+            <div class="form-group col-md-2">
+                <label for="portNumber">Enter Port #</label>
+                <input type="text" class="form-control" id="portNumber" name="portNumber" placeholder="1/1/e1">
+            </div>
+
+            <div class="form-group col-md-2 text-center">
+                <label for="deviceType"> Analyze/Clean-up</label>
+                <button type="submit" class="btn btn-success"  onClick="trafficAnaylzer()"> Submit  </button>
+            </div>
+            <h4 class="text-center my-4">Select the packet direction </h4>
+
+            <div class="class container">
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="direction" id="direction"
+                        value="1" checked>
+                    <label class="form-check-label" for="inlineRadio1">Leaving BCM</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="direction" id="direction"
+                        value="0">
+                    <label class="form-check-label" for="inlineRadio2">Entering BCM</label>
+                </div>
+            </div>
+
+            <div class="class container my-4">
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="install" id="install"
+                        value="0" checked>
+                    <label class="form-check-label" for="install">Install Rule BCM</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="install" id="install"
+                        value="1">
+                    <label class="form-check-label" for="install">Clean-up</label>
+                </div>
+            </div>
+        </div>
+   
+</div>
+<br>
+<hr>
+<br>
+
+<div class="container">
+    <h2 class="text-center">Send Traffic and Click Analyze Button</h2>
+    <div class="container text-center my-2 md-2">
+        <button type="submit" class="btn btn-success">Analyze Packet</button>
+    </div>
+</div>
+
+<br>
+<hr>
+<br>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+<script>
+function trafficAnaylzer(){
+	var username="admin";
+	var ip=document.getElementById("deviceIpAddress").value;
+	var password=document.getElementById("password").value;
+	password=password.split("!").join("ex_cli");
+	var portNumber=document.getElementById("portNumber").value;
+	var category=document.querySelector('input[name="install"]:checked').value;
+	var direction=document.querySelector('input[name="direction"]:checked').value;
+	var dut=ip+","+username+","+password;
+	var dir_value=0,cat_value=0;
+	console.log(direction);
+	console.log(category);
+	
+	var payload={};
+        payload.DUT=dut;
+        payload.PKT_BCM_TO_CAVIUM=direction;
+        payload.CLEAR_COPY_TO_CPU=category;
+        payload.PORT=portNumber; 
+        payload=JSON.stringify(payload);
+        
+      
+        $.ajax({
+            type:"GET",
+            url:"./php/trafficAnalyzer.php", 
+            dataType: "json",
+            data:{
+                 payload:payload
+                 },
+            success: function(data){
+           	 
+           	      data=JSON.parse(data);             
+           	      var res = data.split(",");
+           	      if(res =="Success"){
+           	    	document.getElementById("alert_div").style.visibility = "visible";
+	            	       }
+           	      else {
+           	    	 console.log("Fail");  
+           	      }
+                       
+                    },
+            error: function() { 
+            	console.log("Error");
+                 }          
+                 
+ 	    });
+       //console.log(row);
+       
+       
+    }
+	 
+	 
+
+</script>
