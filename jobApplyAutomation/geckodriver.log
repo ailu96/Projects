@@ -1,0 +1,146 @@
+1726778755727	geckodriver	INFO	Listening on 127.0.0.1:54575
+1726778756749	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/9t/ls9sddrn3rn2gnmhgxns77340000gn/T/rust_mozprofile4VIHic"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1726778758719	Marionette	INFO	Marionette enabled
+1726778759230	Marionette	INFO	Listening on port 54586
+1726778759364	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript warning: https://www.ziprecruiter.com/njs/authn/vendors/@fingerprintjs.2e35e8b1.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.ziprecruiter.com."
+JavaScript warning: https://accounts.google.com/gsi/button?logo_alignment=center&shape=rectangular&size=large&text=continue_with&theme=outline&type=standard&width=400&client_id=819446331585-c45eti70acs2pmdf7eggk1i33b1vb26m.apps.googleusercontent.com&iframe_id=gsi_762212_122248&as=TxrwxyzljJczsKhZeKBkSA, line 63: Script terminated by timeout at:
+Cb@/_/gsi/_/js/k=gsi.gsi.en_US.tD9dd3mAWgk.O/am=AACRuMAB/d=1/rs=AF0KOtXixf00ehimFvpNqgmJytyOKNysxg/m=credential_button_library:63:93
+Lb@/_/gsi/_/js/k=gsi.gsi.en_US.tD9dd3mAWgk.O/am=AACRuMAB/d=1/rs=AF0KOtXixf00ehimFvpNqgmJytyOKNysxg/m=credential_button_library:66:52
+_.Ib@/_/gsi/_/js/k=gsi.gsi.en_US.tD9dd3mAWgk.O/am=AACRuMAB/d=1/rs=AF0KOtXixf00ehimFvpNqgmJytyOKNysxg/m=credential_button_library:65:395
+Gb@/_/gsi/_/js/k=gsi.gsi.en_US.tD9dd3mAWgk.O/am=AACRuMAB/d=1/rs=AF0KOtXixf00ehimFvpNqgmJytyOKNysxg/m=credential_button_library:65:313
+Lb/a<@/_/gsi/_/js/k=gsi.gsi.en_US.tD9dd3mAWgk.O/am=AACRuMAB/d=1/rs=AF0KOtXixf00ehimFvpNqgmJytyOKNysxg/m=credential_button_library:66:78
+Cb@/_/gsi/_/js/k=gsi.gsi.en_US.tD9dd3mAWgk.O/am=AACRuMAB/d=1/rs=AF0KOtXixf00ehimFvpNqgmJytyOKNysxg/m=credential_button_library:63:106
+Lb@/_/gsi/_/js/k=gsi.gsi.en_US.tD9dd3mAWgk.O/am=AACRuMAB/d=1/rs=AF0KOtXixf00ehimFvpNqgmJytyOKNysxg/m=credential_button_library:66:52
+_.Ib@/_/gsi/_/js/k=gsi.gsi.en_US.tD9dd3mAWgk.O/am=AACRuMAB/d=1/rs=AF0KOtXixf00ehimFvpNqgmJytyOKNysxg/m=credential_button_library:65:395
+Gb@/_/gsi/_/js/k=gsi.gsi.en_US.tD9dd3mAWgk.O/am=AACRuMAB/d=1/rs=AF0KOtXixf00ehimFvpNqgmJytyOKNysxg/m=credential_button_library:65:313
+Lb/a<@/_/gsi/_/js/k=gsi.gsi.en_US.tD9dd3mAWgk.O/am=AACRuMAB/d=1/rs=AF0KOtXixf00ehimFvpNqgmJytyOKNysxg/m=credential_button_library:66:78
+Cb@/_/gsi/_/js/k=gsi.gsi.en_US.tD9dd3mAWgk.O/am=AACRuMAB/d=1/rs=AF0KOtXixf00ehimFvpNqgmJytyOKNysxg/m=credential_button_library:63:106
+Lb@/_/gsi/_/js/k=gsi.gsi.en_US.tD9dd3mAWgk.O/am=AACRuMAB/d=1/rs=AF0KOtXixf00ehimFvpNqgmJytyOKNysxg/m=credential_button_library:66:52
+_.Ib@/_/gsi/_/js/k=gsi.gsi.en_US.tD9dd3mAWgk.O/am=AACRuMAB/d=1/rs=AF0KOtXixf00ehimFvpNqgmJytyOKNysxg/m=credential_button_library:65:395
+dh@/_/gsi/_/js/k=gsi.gsi.en_US.tD9dd3mAWgk.O/am=AACRuMAB/d=1/rs=AF0KOtXixf00ehimFvpNqgmJytyOKNysxg/m=credential_button_library:176:237
+Zi@/_/gsi/_/js/k=gsi.gsi.en_US.tD9dd3mAWgk.O/am=AACRuMAB/d=1/rs=AF0KOtXixf00ehimFvpNqgmJytyOKNysxg/m=credential_button_library:217:368
+bj@/_/gsi/_/js/k=gsi.gsi.en_US.tD9dd3mAWgk.O/am=AACRuMAB/d=1/rs=AF0KOtXixf00ehimFvpNqgmJytyOKNysxg/m=credential_button_library:214:417
+aj@/_/gsi/_/js/k=gsi.gsi.en_US.tD9dd3mAWgk.O/am=AACRuMAB/d=1/rs=AF0KOtXixf00ehimFvpNqgmJytyOKNysxg/m=credential_button_library:214:22
+Wi.prototype.D@/_/gsi/_/js/k=gsi.gsi.en_US.tD9dd3mAWgk.O/am=AACRuMAB/d=1/rs=AF0KOtXixf00ehimFvpNqgmJytyOKNysxg/m=credential_button_library:213:63
+Wi/<@/_/gsi/_/js/k=gsi.gsi.en_US.tD9dd3mAWgk.O/am=AACRuMAB/d=1/rs=AF0KOtXixf00ehimFvpNqgmJytyOKNysxg/m=credential_button_library:207:282
+
+JavaScript warning: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/orchestrate/chl_api/v1?ray=8c5c6c67b87b2ca8&lang=auto, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/orchestrate/chl_api/v1?ray=8c5c6c89ff2d2ca8&lang=auto, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/orchestrate/chl_api/v1?ray=8c5c6cb809f42ca8&lang=auto, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/orchestrate/chl_api/v1?ray=8c5c6ccad9962ca8&lang=auto, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1726778788743	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/orchestrate/chl_api/v1?ray=8c5c6cfca9a62ca8&lang=auto, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/orchestrate/chl_api/v1?ray=8c5c6d1f5fbb2ca8&lang=auto, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/orchestrate/chl_api/v1?ray=8c5c6d4c38932ca8&lang=auto, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/orchestrate/chl_api/v1?ray=8c5c6d715db82ca8&lang=auto, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/orchestrate/chl_api/v1?ray=8c5c6daebab32ca8&lang=auto, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1726781291540	geckodriver	INFO	Listening on 127.0.0.1:55450
+1726781292553	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... ionControlled" "-foreground" "-no-remote" "-profile" "/var/folders/9t/ls9sddrn3rn2gnmhgxns77340000gn/T/rust_mozprofileAOny5g"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1726781293346	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-disable-blink-features"
+1726781293725	Marionette	INFO	Listening on port 55462
+1726781293872	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript warning: https://www.ziprecruiter.com/njs/authn/vendors/@fingerprintjs.2e35e8b1.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/orchestrate/chl_api/v1?ray=8c5caa89fdfcea9c&lang=auto, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/orchestrate/chl_api/v1?ray=8c5caaad1a7cea9c&lang=auto, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1726781323423	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/orchestrate/chl_api/v1?ray=8c5caaca5f41ea9c&lang=auto, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/orchestrate/chl_api/v1?ray=8c5cab09ffebea9c&lang=auto, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/orchestrate/chl_api/v1?ray=8c5cab49ac23ea9c&lang=auto, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/orchestrate/chl_api/v1?ray=8c5cab89af3cea9c&lang=auto, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1726781392119	geckodriver	INFO	Listening on 127.0.0.1:55596
+1726781393135	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... ionControlled" "-foreground" "-no-remote" "-profile" "/var/folders/9t/ls9sddrn3rn2gnmhgxns77340000gn/T/rust_mozprofileo0KZvx"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1726781394346	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-disable-blink-features"
+1726781394861	Marionette	INFO	Listening on port 55607
+1726781395001	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript warning: https://www.ziprecruiter.com/njs/authn/vendors/@fingerprintjs.2e35e8b1.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://accounts.google.com/gsi/button?logo_alignment=center&shape=rectangular&size=large&text=continue_with&theme=outline&type=standard&width=400&client_id=819446331585-c45eti70acs2pmdf7eggk1i33b1vb26m.apps.googleusercontent.com&iframe_id=gsi_397605_801544&as=ok8TcQ%2BgZZjDYKbNEYKIKw, line 67: Script terminated by timeout at:
+Qb@/_/gsi/_/js/k=gsi.gsi.en_US.tD9dd3mAWgk.O/am=AACRuIgB/d=1/rs=AF0KOtUQ4D86Hj8E5acS3iWtBmi1t1xGfw/m=credential_button_library:67:324
+_.G@/_/gsi/_/js/k=gsi.gsi.en_US.tD9dd3mAWgk.O/am=AACRuIgB/d=1/rs=AF0KOtUQ4D86Hj8E5acS3iWtBmi1t1xGfw/m=credential_button_library:80:275
+cj@/_/gsi/_/js/k=gsi.gsi.en_US.tD9dd3mAWgk.O/am=AACRuIgB/d=1/rs=AF0KOtUQ4D86Hj8E5acS3iWtBmi1t1xGfw/m=credential_button_library:217:3
+ej@/_/gsi/_/js/k=gsi.gsi.en_US.tD9dd3mAWgk.O/am=AACRuIgB/d=1/rs=AF0KOtUQ4D86Hj8E5acS3iWtBmi1t1xGfw/m=credential_button_library:217:68
+Zi@/_/gsi/_/js/k=gsi.gsi.en_US.tD9dd3mAWgk.O/am=AACRuIgB/d=1/rs=AF0KOtUQ4D86Hj8E5acS3iWtBmi1t1xGfw/m=credential_button_library:217:268
+bj@/_/gsi/_/js/k=gsi.gsi.en_US.tD9dd3mAWgk.O/am=AACRuIgB/d=1/rs=AF0KOtUQ4D86Hj8E5acS3iWtBmi1t1xGfw/m=credential_button_library:214:417
+aj@/_/gsi/_/js/k=gsi.gsi.en_US.tD9dd3mAWgk.O/am=AACRuIgB/d=1/rs=AF0KOtUQ4D86Hj8E5acS3iWtBmi1t1xGfw/m=credential_button_library:214:22
+Wi.prototype.D@/_/gsi/_/js/k=gsi.gsi.en_US.tD9dd3mAWgk.O/am=AACRuIgB/d=1/rs=AF0KOtUQ4D86Hj8E5acS3iWtBmi1t1xGfw/m=credential_button_library:213:63
+Wi/<@/_/gsi/_/js/k=gsi.gsi.en_US.tD9dd3mAWgk.O/am=AACRuIgB/d=1/rs=AF0KOtUQ4D86Hj8E5acS3iWtBmi1t1xGfw/m=credential_button_library:207:282
+
+JavaScript warning: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/orchestrate/chl_api/v1?ray=8c5cacd888506be4&lang=auto, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource:///modules/sessionstore/SessionStore.sys.mjs, line 3773: TypeError: this._windows[aWindow.__SSi] is undefined
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1726781420596	geckodriver	INFO	Listening on 127.0.0.1:55674
+1726781421609	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... ionControlled" "-foreground" "-no-remote" "-profile" "/var/folders/9t/ls9sddrn3rn2gnmhgxns77340000gn/T/rust_mozprofiletPSqQC"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1726781422430	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-disable-blink-features"
+1726781422886	Marionette	INFO	Listening on port 55685
+1726781423038	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript warning: https://www.ziprecruiter.com/njs/authn/vendors/@fingerprintjs.2e35e8b1.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: chrome://browser/content/preferences/moreFromMozilla.js, line 83: TypeError: Region.home is null
+JavaScript error: resource:///modules/sessionstore/SessionStore.sys.mjs, line 3773: TypeError: this._windows[aWindow.__SSi] is undefined
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1726781522749	geckodriver	INFO	Listening on 127.0.0.1:55769
+1726781523767	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/9t/ls9sddrn3rn2gnmhgxns77340000gn/T/rust_mozprofile2BaJmy"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1726781525462	Marionette	INFO	Marionette enabled
+1726781526049	Marionette	INFO	Listening on port 55782
+1726781526197	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript warning: https://www.ziprecruiter.com/njs/authn/vendors/@fingerprintjs.2e35e8b1.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.ziprecruiter.com."
+JavaScript warning: https://accounts.google.com/gsi/button?logo_alignment=center&shape=rectangular&size=large&text=continue_with&theme=outline&type=standard&width=400&client_id=819446331585-c45eti70acs2pmdf7eggk1i33b1vb26m.apps.googleusercontent.com&iframe_id=gsi_529381_575231&as=QU%2B4lPH76OCr8A7QjqrVDg, line 118: Script terminated by timeout at:
+_.O@/_/gsi/_/js/k=gsi.gsi.en_US.tD9dd3mAWgk.O/am=AACRuIAB/d=1/rs=AF0KOtXSSJuNgBwHfmDDUi5pNMNYEZgsSQ/m=credential_button_library:118:421
+Yi@/_/gsi/_/js/k=gsi.gsi.en_US.tD9dd3mAWgk.O/am=AACRuIAB/d=1/rs=AF0KOtXSSJuNgBwHfmDDUi5pNMNYEZgsSQ/m=credential_button_library:216:192
+Wi.prototype.D@/_/gsi/_/js/k=gsi.gsi.en_US.tD9dd3mAWgk.O/am=AACRuIAB/d=1/rs=AF0KOtXSSJuNgBwHfmDDUi5pNMNYEZgsSQ/m=credential_button_library:213:50
+Wi/<@/_/gsi/_/js/k=gsi.gsi.en_US.tD9dd3mAWgk.O/am=AACRuIAB/d=1/rs=AF0KOtXSSJuNgBwHfmDDUi5pNMNYEZgsSQ/m=credential_button_library:207:282
+
+JavaScript warning: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/orchestrate/chl_api/v1?ray=8c5cb042a80e485d&lang=auto, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/orchestrate/chl_api/v1?ray=8c5cb0660884485d&lang=auto, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1726781555511	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/orchestrate/chl_api/v1?ray=8c5cb097788b485d&lang=auto, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/orchestrate/chl_api/v1?ray=8c5cb1092ad6485d&lang=auto, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/orchestrate/chl_api/v1?ray=8c5cb1b80c73485d&lang=auto, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/orchestrate/chl_api/v1?ray=8c5cb2d8ad89485d&lang=auto, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource:///modules/sessionstore/SessionStore.sys.mjs, line 3773: TypeError: this._windows[aWindow.__SSi] is undefined
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
