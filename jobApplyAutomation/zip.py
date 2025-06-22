@@ -112,7 +112,7 @@ if __name__ == "__main__":
     
     # Enter your login credentials
     username.send_keys("nagasanthosh241296@gmail.com")
-    password.send_keys("Houston@1234")
+    password.send_keys("*****")
     
     # Click the login button
     login_button.click()
